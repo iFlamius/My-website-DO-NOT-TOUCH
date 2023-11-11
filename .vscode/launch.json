@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "C:/Users/mikej/OneDrive/Desktop/My%20website%20DO%20NOT%20TOUCH/index.html",
+            "request": "launch",
+            "url": "C:/Users/mikej/OneDrive/Desktop/My%20website%20DO%20NOT%20TOUCH/index.html"
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Affano</title>
+    
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #B7808F;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #684a28;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Affano</h1>
+        <nav>
+            <style>
+                   nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+            </style>
+
+<title>User Sign-In</title>
+<script>
+    function validateForm() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "" || password === "") {
+            alert("Both username and password are required");
+            return false;
+        }
+
+        // Additional client-side validation can be added here
+    }
+</script>
+
+<h2>Sign In</h2>
+<form action="signin.php" method="post" onsubmit="return validateForm();">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required><br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+
+<input type="submit" value="Sign In">
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#designs">Designs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-bar">
+            <form action="/search" method="get">
+                <input type="text" name="q" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <style>
+
+
+
+            .search-bar {
+    margin-top: 10px;
+    float: right; /* There's a problem here --- adjust when you have the time. The search bar is in between the header & body line*/
+    
+}
+
+.search-bar form {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+        </style>
+
+    </header>
+
+    <style>
+        .center {
+
+            text-align:center
+
+        }
+        .right {
+
+            text-align:right
+
+        }
+
+        .left {
+
+            text-align:left
+
+        }
+    </style>
+    
+    <div class="container">
+        <h2 class="center">Welcome to Affano</h2>
+        <p>In our fast-paced, digitally-driven world, it's easy to get caught up in the chaos of daily life. Stress, anxiety, and the constant pursuit of more can leave us feeling overwhelmed and disconnected from our inner selves. But there is a way to regain balance and find lasting happiness: the practice of mindful living. In this blog post, we will explore the art of mindful living, its benefits, and practical tips to incorporate it into your daily life.</p>
+        <p>Define mindful living and its roots in mindfulness meditation.</p>
+        <p>Discuss the importance of being fully present in the moment.</p>
+        <p>Explain the connection between mindfulness and inner peace.</p>
+
+        <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+
+    <div class="container">
+        <h2>What we do?</h2>
+        <p>We are committed to:</p>
+        <ul>
+            <li>Designing high-quality designs and services.</li>
+            <li>Providing excellent customer support.</li>
+            <li>Continuous innovation and improvement.</li>
+        </ul>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to get in touch with us, please use the form below:</p>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </div>
+    
+    <footer class="container">
+        <p>&copy; 2023 Your Startup. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+        
+/* after this point, this is a script test */
+
+<style>
+    #comment-container {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .comment {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+    }
+</style>
+
+<h1 class="center">Comment Section</h1>
+    
+<div id="comment-container">
+    <h2>Comments</h2>
+    <div id="comments-list">
+        <!-- Existing comments will be displayed here -->
+    </div>
+    
+    <h2>Add a Comment</h2>
+    <input type="text" id="comment-input" placeholder="Your comment">
+    <button onclick="addComment()">Add Comment</button>
+</div>
+
+<script>
+    function addComment() {
+        const commentInput = document.getElementById("comment-input");
+        const commentText = commentInput.value.trim();
+
+        if (commentText === "") {
+            alert("Please enter a comment.");
+            return;
+        }
+
+        const commentsList = document.getElementById("comments-list");
+        const commentDiv = document.createElement("div");
+        commentDiv.className = "comment";
+        commentDiv.textContent = commentText;
+        commentsList.appendChild(commentDiv);
+
+        // Clear the input field
+        commentInput.value = "";
+    }
+</script>
+
+<body>
+    <div class="container">
+            <div class="result">
+                <span>0</span>
+            </div>
+
+            <div class= "buttons">
+
+                <button class="item item1 clear">AC</button>
+                <button class="item item1 negative">+/-</button>
+                <button class="item percent sign">%</button>
+                <button class="item item3 sign">/</button>
+                <button class="item numbers">7</button>
+                <button class="item numbers">8</button>
+                <button class="item numbers">9</button>
+                <button class="item item3 sign">x</button>
+                <button class="item numbers">4</button>
+                <button class="item numbers">5</button>
+                <button class="item numbers">6</button>
+                <button class="item item3 sign">-</button>
+                <button class="item numbers">1</button>
+                <button class="item numbers">2</button>
+                <button class="item numbers">3</button>
+                <button class="item item3 sign">+</button>
+                <button class="item itemZero numbers">0</button>
+                <button class="item comma">,</button>
+                <button class="item item3 equals">=</button>
+            </div>
+        </div>
+
+<script src="index.js"></script>
+    </div>
+</body>
